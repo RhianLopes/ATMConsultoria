@@ -95,7 +95,7 @@
                     <view key="view" contentMode="scaleToFill" id="ym0-qc-qEM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="chl-HD-9ly"/>
                     </view>
                 </viewController>
@@ -110,7 +110,7 @@
                     <view key="view" contentMode="scaleToFill" id="dzo-6J-9ku">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="o51-ui-XDU"/>
                     </view>
                 </viewController>
@@ -125,7 +125,7 @@
                     <view key="view" contentMode="scaleToFill" id="jgY-hZ-1aJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Qn8-Pv-aPR"/>
                     </view>
                 </viewController>
@@ -140,7 +140,7 @@
                     <view key="view" contentMode="scaleToFill" id="LgI-Cm-9YS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="1i5-op-osL"/>
                     </view>
                 </viewController>
