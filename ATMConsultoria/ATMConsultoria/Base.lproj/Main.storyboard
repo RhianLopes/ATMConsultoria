@@ -166,26 +166,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="1K3-CL-FrK">
-                                <rect key="frame" x="16" y="85" width="251.5" height="118"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="0D3-5I-XU4">
+                                <rect key="frame" x="16" y="85" width="316" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_contato" translatesAutoresizingMaskIntoConstraints="NO" id="bxb-qH-DrM">
-                                        <rect key="frame" x="0.0" y="0.0" width="112" height="118"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contato" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nai-0q-SEg">
-                                        <rect key="frame" x="142" y="41.5" width="109.5" height="35"/>
-                                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="1K3-CL-FrK">
+                                        <rect key="frame" x="0.0" y="0.0" width="251.5" height="118"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_contato" translatesAutoresizingMaskIntoConstraints="NO" id="bxb-qH-DrM">
+                                                <rect key="frame" x="0.0" y="0.0" width="112" height="118"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contato" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nai-0q-SEg">
+                                                <rect key="frame" x="142" y="41.5" width="109.5" height="35"/>
+                                                <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="974-We-9w7">
+                                        <rect key="frame" x="0.0" y="152" width="316" height="66"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jQL-gu-zxj">
+                                                <rect key="frame" x="0.0" y="0.0" width="282" height="29"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefone: (51) 9324 - 3232" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3M-fr-sD6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="282" height="29"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Hma-8p-OWk">
+                                                <rect key="frame" x="0.0" y="37" width="316" height="29"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail: naoehmeu@email.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7c-3v-Tar">
+                                                        <rect key="frame" x="0.0" y="0.0" width="316" height="29"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="1K3-CL-FrK" firstAttribute="top" secondItem="Qn8-Pv-aPR" secondAttribute="top" constant="21" id="r7t-se-57i"/>
-                            <constraint firstItem="1K3-CL-FrK" firstAttribute="leading" secondItem="Qn8-Pv-aPR" secondAttribute="leading" constant="16" id="zI7-o2-s9B"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Qn8-Pv-aPR"/>
                     </view>
                 </viewController>
@@ -201,26 +230,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pdT-60-wCF">
-                                <rect key="frame" x="16" y="85" width="226.5" height="90"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="52" translatesAutoresizingMaskIntoConstraints="NO" id="gFs-52-3Ba">
+                                <rect key="frame" x="16" y="85" width="342" height="342"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_cliente" translatesAutoresizingMaskIntoConstraints="NO" id="HZa-OD-YfK">
-                                        <rect key="frame" x="0.0" y="0.0" width="85" height="90"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyu-wI-oEs">
-                                        <rect key="frame" x="115" y="27.5" width="111.5" height="35"/>
-                                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pdT-60-wCF">
+                                        <rect key="frame" x="0.0" y="0.0" width="226.5" height="90"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_cliente" translatesAutoresizingMaskIntoConstraints="NO" id="HZa-OD-YfK">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="90"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyu-wI-oEs">
+                                                <rect key="frame" x="115" y="27.5" width="111.5" height="35"/>
+                                                <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="vLm-XU-4Cv">
+                                        <rect key="frame" x="0.0" y="142" width="342" height="200"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="5wu-DK-yZ2">
+                                                <rect key="frame" x="0.0" y="0.0" width="342" height="88"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cliente1" translatesAutoresizingMaskIntoConstraints="NO" id="KAy-49-bQd">
+                                                        <rect key="frame" x="0.0" y="0.0" width="111" height="49.000000000000014"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Construtora famosa no ramo de casas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7c-t0-Lsm">
+                                                        <rect key="frame" x="0.0" y="64" width="328" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Dhm-ek-yEO">
+                                                <rect key="frame" x="0.0" y="121" width="342" height="79"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cliente2" translatesAutoresizingMaskIntoConstraints="NO" id="Phm-A3-2QD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="111" height="55"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Construtora famosa no ramo de prédios" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxf-N1-ZNr">
+                                                        <rect key="frame" x="0.0" y="55" width="342" height="24"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="pdT-60-wCF" firstAttribute="leading" secondItem="1i5-op-osL" secondAttribute="leading" constant="16" id="csq-Ja-QQW"/>
-                            <constraint firstItem="pdT-60-wCF" firstAttribute="top" secondItem="1i5-op-osL" secondAttribute="top" constant="21" id="xzz-na-Bqp"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1i5-op-osL"/>
                     </view>
                 </viewController>
@@ -248,6 +312,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cliente1" width="111" height="49"/>
+        <image name="cliente2" width="111" height="55"/>
         <image name="detalhe_cliente" width="85" height="90"/>
         <image name="detalhe_contato" width="112" height="118"/>
         <image name="detalhe_empresa" width="85" height="79"/>
