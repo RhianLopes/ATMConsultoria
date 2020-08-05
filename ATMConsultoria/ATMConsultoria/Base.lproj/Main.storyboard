@@ -38,10 +38,16 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slV-XH-O7B">
                                                         <rect key="frame" x="0.0" y="0.0" width="115" height="121"/>
                                                         <state key="normal" backgroundImage="menu_cliente"/>
+                                                        <connections>
+                                                            <segue destination="mua-VZ-aXH" kind="show" id="X7L-Sk-AYf"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgr-Ax-zUD">
                                                         <rect key="frame" x="125" y="0.0" width="115" height="121"/>
                                                         <state key="normal" backgroundImage="menu_contato"/>
+                                                        <connections>
+                                                            <segue destination="ae9-oF-YFc" kind="show" id="kqa-rx-gVK"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -51,10 +57,16 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSq-Lj-qoY">
                                                         <rect key="frame" x="0.0" y="0.0" width="115" height="121"/>
                                                         <state key="normal" backgroundImage="menu_empresa"/>
+                                                        <connections>
+                                                            <segue destination="E41-eO-rWm" kind="show" id="sCZ-2X-lEa"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tg1-Nw-woZ">
                                                         <rect key="frame" x="125" y="0.0" width="115" height="121"/>
                                                         <state key="normal" backgroundImage="menu_servico"/>
+                                                        <connections>
+                                                            <segue destination="8e1-PA-ED5" kind="show" id="2VA-UD-hO2"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
