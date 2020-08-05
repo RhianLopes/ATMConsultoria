@@ -95,6 +95,23 @@
                     <view key="view" contentMode="scaleToFill" id="ym0-qc-qEM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Iyq-IQ-kBp">
+                                <rect key="frame" x="16" y="93" width="224" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_empresa" translatesAutoresizingMaskIntoConstraints="NO" id="uDp-5h-ffi">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="79"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empresa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdf-l1-QCI">
+                                        <rect key="frame" x="115" y="22" width="109" height="35"/>
+                                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="chl-HD-9ly"/>
                     </view>
@@ -110,13 +127,30 @@
                     <view key="view" contentMode="scaleToFill" id="dzo-6J-9ku">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="oqX-fK-Ha6">
+                                <rect key="frame" x="16" y="106" width="236.5" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_servico" translatesAutoresizingMaskIntoConstraints="NO" id="yYO-eQ-Zu9">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="79"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Serviços" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoU-e6-gK9">
+                                        <rect key="frame" x="129" y="22" width="107.5" height="35"/>
+                                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="o51-ui-XDU"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSC-lj-z7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1844" y="526"/>
+            <point key="canvasLocation" x="1844" y="525.78710644677665"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EQI-27-WjF">
@@ -125,6 +159,23 @@
                     <view key="view" contentMode="scaleToFill" id="jgY-hZ-1aJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="1K3-CL-FrK">
+                                <rect key="frame" x="16" y="109" width="242" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_contato" translatesAutoresizingMaskIntoConstraints="NO" id="bxb-qH-DrM">
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="118"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contato" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nai-0q-SEg">
+                                        <rect key="frame" x="142" y="41.5" width="100" height="35"/>
+                                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Qn8-Pv-aPR"/>
                     </view>
@@ -140,13 +191,30 @@
                     <view key="view" contentMode="scaleToFill" id="LgI-Cm-9YS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pdT-60-wCF">
+                                <rect key="frame" x="16" y="112" width="216.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_cliente" translatesAutoresizingMaskIntoConstraints="NO" id="HZa-OD-YfK">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="90"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clientes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyu-wI-oEs">
+                                        <rect key="frame" x="115" y="27.5" width="101.5" height="35"/>
+                                        <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="0.68934941400000005" green="0.92584073600000005" blue="0.63898278080000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="1i5-op-osL"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u0V-yR-vbn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="-563"/>
+            <point key="canvasLocation" x="1076" y="-563.56821589205401"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6Z6-gX-NYF">
@@ -168,6 +236,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="detalhe_cliente" width="85" height="90"/>
+        <image name="detalhe_contato" width="112" height="118"/>
+        <image name="detalhe_empresa" width="85" height="79"/>
+        <image name="detalhe_servico" width="85" height="79"/>
         <image name="logo" width="266" height="96"/>
         <image name="menu_cliente" width="115" height="121"/>
         <image name="menu_contato" width="115" height="121"/>
